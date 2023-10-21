@@ -8,6 +8,9 @@ int main(){
     printf("days uesd: ");
     scanf("%d",&days);
 
-    
+    int a = remaining_days - days;
+    printf("%d remaining days \n", a);
+
+    double average = totaldata/days;
     
 }
