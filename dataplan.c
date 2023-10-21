@@ -14,7 +14,7 @@ int main(){
     double average = totaldata/days;
     printf("Average used %lf GB/day \n",average);
 
-    ifO(average <=0 || days <30 || totaldata <0){
+    if(average <=0 || days <30 || totaldata <0){
         printf("ERROR:\n");
     }else if(average > totaldata/30.0){
         printf("ERROR: you re exceded today used %lf",totaldata/30.0);
