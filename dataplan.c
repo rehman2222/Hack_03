@@ -18,6 +18,12 @@ int main(){
         printf("ERROR:\n");
     }else if(average > totaldata/30.0){
         printf("ERROR: you re exceded today used %lf",totaldata/30.0);
+    }else if(average > totaldata/30.0){
+        printf("you are below daily usage",totaldata/30.0);
+    }else{
+        printf("your limit is exced ");
+
+        return 0;
     }
     
 }
